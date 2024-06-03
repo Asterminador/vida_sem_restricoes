@@ -10,5 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     registerText.addEventListener('click', (event) => {
         event.preventDefault();
         alert('Redirecionando para cadastro');
+        window.location.href = 'cadastro.html';
     });
 });
